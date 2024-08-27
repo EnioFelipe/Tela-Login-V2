@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 720px) and (max-width: 992px) {
+
+    div#tela{
+        width: 820px;
+        height: 100dvh;
+        background-color: white;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    div#tela{
+        width: 100dvw;
+        height: 100dvh;
+        background-color: white;
+    }
+
+}
+    

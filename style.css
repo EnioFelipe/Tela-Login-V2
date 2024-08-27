@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+div#tela{
+    width: 320px;
+    height: 600px;
+    border-radius: 33px;
+    background-color: white;
+}
+
+div#campos{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+input[type="email"], input[type="password"]{
+    width: 80%;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: -1px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 8px;
+    background-color: rgba(0, 255, 255, 0.205);
+}
+
+input[type="button"]{
+    width: 85%;
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: rgb(98, 98, 247);
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.preencher{
+    border: 0px;
+    padding: 0px;
+}
+
+div#links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 270px;
+    width: 85%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 6px -5px;
+    text-align: end;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    padding-right: 5px;
+    width: 85%;
+    border-radius: 12px;
+}
+
+footer a{
+    text-decoration: underline;
+    color: black;
+    padding-left: 4px;
+    border: 0px;
+}
+footer p{
+    font-size: small;
+    margin-top: 60px;
+}
