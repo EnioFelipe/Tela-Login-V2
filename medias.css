@@ -3,19 +3,68 @@
 @media screen and (min-width: 720px) and (max-width: 992px) {
 
     div#tela{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 820px;
         height: 100dvh;
         background-color: white;
+        border-radius: 0px;
     }
 
+    div#links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+    }
+
+    a#redes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    footer{
+        margin: 0px;
+        padding: 0px;
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
     div#tela{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100dvw;
         height: 100dvh;
         background-color: white;
+        border-radius: 0px;
+    }
+
+    div#links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+
+    a#redes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    footer{
+        margin: 0px;
+        padding: 0px;
+        height: 200px;
     }
 
 }
