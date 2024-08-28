@@ -103,6 +103,7 @@ div#links{
 
 a#redes{
     display: flex;
+    text-align: right;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -127,9 +128,4 @@ footer a{
 }
 footer p{
     font-size: small;
-}
-
-footer{
-    margin: 50px 0px;
-    padding: 0px;
 }
