@@ -37,6 +37,10 @@ body {
     padding-left: 25px;
 }
 
+div#foto > img{
+    display: none;
+}
+
 div#tela{
     display: flex;
     flex-direction: column;
@@ -56,9 +60,11 @@ div#campos{
     padding: 20px;
 }
 
-div#imagem{
-    display: none;
+div#foto{
+    height: 100dvh;
+    width: 100dvw;
 }
+
 
 input[type="email"], input[type="password"]{
     width: 80%;
@@ -128,4 +134,5 @@ footer a{
 }
 footer p{
     font-size: small;
+    margin-bottom: 10px;
 }
